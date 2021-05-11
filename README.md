@@ -36,3 +36,6 @@ eg for Karnataka (state id 16):
 ```python cowin.py -dist 294 -age 45```
 
 ```python cowin.py -dist 294 -age 18```
+
+
+**Supported OS:** Linux and Mac
