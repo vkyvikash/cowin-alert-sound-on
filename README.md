@@ -6,33 +6,46 @@ You should keep it running in the background.
 
 **Command to run:**
 
-```python cowin.py -dist <district_id>```
+```
+python cowin.py -dist <district_id>
+```
 
 eg, for Bangalore's BBMP district:
 
-```python cowin.py -dist 294```
-
+```
+python cowin.py -dist 294
+```
 (294 is district id for Bangalore’s BBMP district, use `-age` for specifying age-limit, defaults to 18)
 
 **How to specify age group:**
 
-```python cowin.py -dist 294 -age 45```
+```
+python cowin.py -dist 294 -age 45
+```
 
-```python cowin.py -dist 294 -age 18```
+```
+python cowin.py -dist 294 -age 18
+```
 
 **How to get district ID?**
 
 1. Get state ID from this curl command:
 
-```curl -X GET "https://cdn-api.co-vin.in/api/v2/admin/location/states" -H "accept: application/json" -H "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"```
+```
+curl -X GET "https://cdn-api.co-vin.in/api/v2/admin/location/states" -H "accept: application/json" -H "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+```
 
 2. Get district IDs by substituting state ID here:
 
-```curl -X GET "https://cdn-api.co-vin.in/api/v2/admin/location/districts/<state_id>" -H "accept: application/json" -H "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"```
+```
+curl -X GET "https://cdn-api.co-vin.in/api/v2/admin/location/districts/<state_id>" -H "accept: application/json" -H "user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+```
 
 eg for Karnataka (state id 16):
 
-```curl -X GET "https://cdn-api.co-vin.in/api/v2/admin/location/districts/16" -H "accept: application/json" -H "user-agent: Mozilla/5.0 (Macintosh ; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"```
+```
+curl -X GET "https://cdn-api.co-vin.in/api/v2/admin/location/districts/16" -H "accept: application/json" -H "user-agent: Mozilla/5.0 (Macintosh ; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"
+```
 
 
 **Supported OS:** Linux and Mac
