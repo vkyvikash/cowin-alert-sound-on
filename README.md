@@ -1,7 +1,7 @@
 # cowin-alert-sound-on
 
 Keep sound on! The script announces PIN code when vaccine slot are available in your district on the next day.
-You should keep it running in the background. The script polls cowin APIs every 10s and announces(sound ON) the PIN code. 
+You should keep it running in the background.
 
 **Command to run:**
 
