@@ -14,6 +14,11 @@ eg, for Bangalore's BBMP district:
 
 (294 is district id for Bangalore’s BBMP district, use `-age` for specifying age-limit, defaults to 18)
 
+**How to specify age group:**
+
+```python cowin.py -dist 294 -age 45```
+
+```python cowin.py -dist 294 -age 18```
 
 **How to get district ID?**
 
@@ -28,14 +33,6 @@ eg, for Bangalore's BBMP district:
 eg for Karnataka (state id 16):
 
 ```curl -X GET "https://cdn-api.co-vin.in/api/v2/admin/location/districts/16" -H "accept: application/json" -H "user-agent: Mozilla/5.0 (Macintosh ; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36"```
-
-
-
-**How to specify age group:**
-
-```python cowin.py -dist 294 -age 45```
-
-```python cowin.py -dist 294 -age 18```
 
 
 **Supported OS:** Linux and Mac
