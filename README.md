@@ -3,11 +3,17 @@
 Keep sound on! The script announces PIN code when vaccine slot are available in your district on the next day.
 You should keep it running in the background.
 
+
 **Command to run:**
+
+```python cowin.py -dist <district_id>```
+
+eg, for Bangalore's BBMP district:
 
 ```python cowin.py -dist 294```
 
 (294 is district id for Bangalore’s BBMP district, use `-age` for specifying age-limit, defaults to 18)
+
 
 **How to get district ID?**
 
