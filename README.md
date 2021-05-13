@@ -21,7 +21,7 @@ eg, for Bangalore's BBMP district:
 ```
 python cowin.py -dist 294
 ```
-(294 is district id for Bangalore’s BBMP district, use `-h` for other command line options)
+(294 is district id for Bangalore’s BBMP district)
 
 
 **Age group (default 18):**
