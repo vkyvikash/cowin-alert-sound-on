@@ -3,6 +3,12 @@
 Keep sound on! The script announces PIN code when vaccine slot are available in your district on the next day.
 You should keep it running in the background.
 
+For all the options:
+```
+python cowin.py -h
+```
+
+
 
 **Command to run:**
 
