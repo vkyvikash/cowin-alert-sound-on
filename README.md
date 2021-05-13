@@ -15,9 +15,10 @@ eg, for Bangalore's BBMP district:
 ```
 python cowin.py -dist 294
 ```
-(294 is district id for Bangalore’s BBMP district, use `-age` for specifying age-limit, defaults to 18)
+(294 is district id for Bangalore’s BBMP district, use `-h` for other command line options)
 
-**How to specify age group:**
+
+**Age group (default 18):**
 
 ```
 python cowin.py -dist 294 -age 45
@@ -25,6 +26,16 @@ python cowin.py -dist 294 -age 45
 
 ```
 python cowin.py -dist 294 -age 18
+```
+
+**Fee Type (default paid)**
+
+```
+python cowin.py -dist 294 -fee paid
+```
+
+```
+python cowin.py -dist 294 -fee free
 ```
 
 **How to get district ID?**
