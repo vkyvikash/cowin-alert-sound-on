@@ -34,15 +34,6 @@ python cowin.py -dist 294 -age 45
 python cowin.py -dist 294 -age 18
 ```
 
-**Fee Type (default paid)**
-
-```
-python cowin.py -dist 294 -fee paid
-```
-
-```
-python cowin.py -dist 294 -fee free
-```
 
 **How to get district ID?**
 
